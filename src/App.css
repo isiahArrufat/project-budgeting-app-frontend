@@ -1,0 +1,96 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333;
+    color: #451414;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Resource list styles */
+  .TransactionsList {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .TransactionsList h2 {
+    margin-bottom: 20px;
+  }
+  
+  .TransactionsList ul {
+    text-align: center;
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: brown
+  }
+  
+  .TransactionsList li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Resource item styles */
+  .resource-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  form input[type='text'],
+  form input[type='number'],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type='submit'] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
